@@ -83,9 +83,9 @@
 原型式继承的思想可用以下函数来说明：
 	
 	function object(o) {
-	function F(){}
-	F.prototype = o;
-	return new F();
+		function F(){}
+		F.prototype = o;
+		return new F();
 	}
 
 例子：
